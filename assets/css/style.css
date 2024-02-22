@@ -7,7 +7,6 @@ body, html {
     body {
         background-color: #000; /* Black background */
         color: #fff; /* White text color */
-        padding: 50px; /* Adding padding around the grid */
     }
 
     .container {
