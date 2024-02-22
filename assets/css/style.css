@@ -10,7 +10,7 @@ body, html {
     }
 
     .container {
-        margin: 20%;
+        margin: 5% 20% 20% 20%;
         display: flex;
         justify-content: center;
         align-items: center;
