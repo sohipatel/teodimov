@@ -61,3 +61,12 @@ body, html {
 p {
         font-size: 1.3em;
 }
+
+.social-icons-container {
+        text-align: center;
+}
+
+.social-icons-container .social-icon {
+        display: inline-block;
+        margin: 0 30px; /* Adjust as needed */
+}
