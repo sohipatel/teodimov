@@ -64,6 +64,11 @@ p {
 
 .social-icons-container {
         text-align: center;
+        font-size: 2em;
+}
+
+.fa {
+        margin: 0 30px;
 }
 
 .social-icons-container .social-icon {
