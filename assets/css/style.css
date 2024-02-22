@@ -74,10 +74,19 @@ p {
         display: none!important;
 }
 
+.notimagegrid {
+        display: none!important;
+}
+
 @media screen and (max-width: 768px) {
         .desktop-social-icons-container {
                 font-size: 1.5em;
                 display: none!important;
+        }
+
+        .notimagegrid {
+                display: block!important;
+                padding: 5px;
         }
 
         .mobile-social-icons-container {
