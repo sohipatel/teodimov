@@ -9,6 +9,17 @@ body, html {
         color: #fff; /* White text color */
     }
 
+    a {
+        text-decoration: none;
+        color: #0F79D0;
+        text-shadow: none;    
+    }
+
+    a:hover,a:focus {
+        text-decoration: none;
+        color: #0a4f89;
+    }
+
     .container {
         margin: 5% 20% 20% 20%;
         display: flex;
