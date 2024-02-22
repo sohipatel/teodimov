@@ -10,7 +10,7 @@ body, html {
     }
 
     .name h1 {
-        font-size: 3em;
+        font-size: 6em;
         font-weight: bold;
         background: -webkit-linear-gradient(#eee, #333);
         -webkit-background-clip: text;
