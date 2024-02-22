@@ -104,6 +104,14 @@ p {
           max-width: calc(50% - 10px);
           margin: 5px;
   }
+
+  p {
+          font-size: 1.1em;
+  }
+
+  .name h1 {
+          font-size: 3em;
+  }
 }
 
 @media screen and (max-width: 480px) {
