@@ -29,15 +29,14 @@ body, html {
     }
 
     .container {
-        margin: 5% 20% 20% 20%;
+        margin: 5% 10% 10% 10%;
         display: flex;
         justify-content: center;
-        align-items: center;
     }
 
     .content {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 2fr 1fr;
         gap: 20px;
     }
 
