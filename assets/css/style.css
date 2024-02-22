@@ -9,6 +9,13 @@ body, html {
         color: #fff; /* White text color */
     }
 
+    h1 {
+        font-size: 2em;
+        background: -webkit-linear-gradient(#eee, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
     a {
         text-decoration: none;
         color: #0F79D0;
