@@ -88,6 +88,9 @@ p {
         
 .fa {
         margin: 0 30px;
+        background: -webkit-linear-gradient(#C9F, #0F79D0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 768px) {
