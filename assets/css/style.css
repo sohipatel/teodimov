@@ -79,12 +79,11 @@ p {
 @media screen and (max-width: 768px) {
   /* Adjustments for smaller screens, like tablets and mobile devices */
   .container {
-    margin: 10% 5%;
+    margin: -5% 5% 10% 5%;
   }
   
   .content {
-    display: grid;
-    grid-template-rows: 2fr 2fr;
+    display: flex;
     gap: 20px;
   }
   
@@ -97,8 +96,7 @@ p {
   }
 
   .right-column {
-          display: flex;
-          flex-wrap: wrap;
+          display: grid;
           justify-content: center;
   }
 
