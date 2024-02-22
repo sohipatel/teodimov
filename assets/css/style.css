@@ -94,6 +94,17 @@ p {
   .social-icons-container {
     margin-top: 20px;
   }
+
+  .right-column {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+  }
+
+  .right-column img {
+          max-width: calc(50% - 10px);
+          margin: 5px;
+  }
 }
 
 @media screen and (max-width: 480px) {
