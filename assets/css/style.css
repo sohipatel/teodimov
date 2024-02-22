@@ -48,6 +48,9 @@ body, html {
     .right-column {
         grid-column: 2 / -1;
         display: grid;
+    }
+
+    .real-right-column {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
         padding: 20px; /* Adding padding inside the right column */
