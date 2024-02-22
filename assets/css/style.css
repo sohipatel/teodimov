@@ -62,18 +62,32 @@ p {
         font-size: 1.3em;
 }
 
-.social-icons-container {
+.desktop-social-icons-container {
         text-align: center;
         font-size: 2em;
+        display: block!important;
 }
 
+.mobile-social-icons-container {
+        text-align: center;
+        font-size: 2em;
+        display: none!important;
+}
+
+@media screen and (max-width: 768px) {
+        .desktop-social-icons-container {
+                font-size: 1.5em;
+                display: none!important;
+        }
+
+        .mobile-social-icons-container {
+                font-size: 1.5em;
+                display: block!important;
+        }
+}
+        
 .fa {
         margin: 0 30px;
-}
-
-.social-icons-container .social-icon {
-        display: inline-block;
-        margin: 0 30px; /* Adjust as needed */
 }
 
 @media screen and (max-width: 768px) {
@@ -122,9 +136,5 @@ p {
   
   .right-column img {
     max-width: 100%; /* Ensure images don't overflow on small screens */
-  }
-  
-  .social-icons-container {
-    font-size: 1.5em; /* Increase icon size for better touch interaction */
   }
 }
