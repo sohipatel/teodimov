@@ -30,7 +30,7 @@ body, html {
         color: #0a4f89;
     }
 
-    .social-icons-container a {
+    .desktop-social-icons-container a {
             margin: 0 20px;
     }
 
@@ -68,18 +68,17 @@ p {
         font-size: 1.3em;
 }
 
-.social-icons-container {
+.desktop-social-icons-container {
         text-align: center;
         font-size: 2em;
 }
 
-.fa {
-        margin: 0 30px;
+.mobile-social-icons-container {
+        display: none;
 }
 
-.social-icons-container .social-icon {
-        display: inline-block;
-        margin: 0 30px; /* Adjust as needed */
+.fa {
+        margin: 0 30px;
 }
 
 @media screen and (max-width: 768px) {
@@ -108,6 +107,16 @@ p {
           gap: 10px;
   }
 
+  .social-icons-container.desktop {
+    display: none;
+  }
+  
+  .social-icons-container.mobile {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+  }
+
   p {
           font-size: 1.1em;
   }
@@ -115,5 +124,15 @@ p {
   .name h1 {
           font-size: 3.5em;
           margin-top: 16%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  /* Show desktop social icons on desktop screens */
+  .social-icons-container.desktop {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    margins: 20px 20px 0 20px;
   }
 }
