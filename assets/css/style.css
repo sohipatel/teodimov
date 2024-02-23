@@ -92,7 +92,7 @@ p {
     gap: 20px;
   }
   
-  .left-column, .right-column {
+  .left-column {
     width: 100%;
   }
 
