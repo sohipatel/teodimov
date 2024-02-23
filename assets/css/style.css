@@ -28,6 +28,10 @@ body, html {
         color: #0a4f89;
     }
 
+    .social-icons-container a {
+            margin: 0 20px;
+    }
+
     .container {
         margin: 5% 10% 10% 10%;
         display: flex;
