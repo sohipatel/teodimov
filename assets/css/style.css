@@ -100,6 +100,10 @@ p {
     margin-top: 20px;
   }
 
+  .left-column {
+          padding: 0px;
+  }
+
   .right-column {
           display: grid;
           justify-content: center;
