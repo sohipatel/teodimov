@@ -88,6 +88,7 @@ p {
   
   .content {
     display: flex;
+    flex-direction: column;
     gap: 20px;
   }
   
@@ -115,20 +116,5 @@ p {
 
   .name h1 {
           font-size: 3em;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  /* Adjustments for smaller screens, like mobile phones */
-  .left-column {
-    font-size: 1em; /* Decrease font size for better readability */
-  }
-  
-  .right-column img {
-    max-width: 100%; /* Ensure images don't overflow on small screens */
-  }
-  
-  .social-icons-container {
-    font-size: 1.5em; /* Increase icon size for better touch interaction */
   }
 }
