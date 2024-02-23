@@ -118,10 +118,6 @@ p {
           align-content: center;
   }
 
-  .right-column img {
-    max-width: calc(50% - 5px); /* Ensure the images don't stretch too much */
-    height: auto;
-  }
 }
 
 @media screen and (max-width: 768px) {
