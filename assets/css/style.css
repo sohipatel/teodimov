@@ -103,11 +103,7 @@ p {
   .right-column {
           display: grid;
           justify-content: center;
-  }
-
-  .right-column img {
-          max-width: calc(50% - 10px);
-          margin: 5px;
+          gap: 10px;
   }
 
   p {
