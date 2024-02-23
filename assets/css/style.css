@@ -95,7 +95,7 @@ p {
 
   .right-column {
     grid-column: auto; /* Reset the grid-column property */
-    justify-items: center; /* Center the items */
+    align-content: center;
     justify-content: center;
   }
         
@@ -115,6 +115,7 @@ p {
 
   .right-column {
           justify-content: center;
+          align-content: center;
   }
 
   .right-column img {
