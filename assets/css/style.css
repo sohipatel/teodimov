@@ -114,6 +114,8 @@ p {
   
   .mobile-social-icons-container {
     display: block;
+    position: absolute;
+    bottom: -20%;
     text-align: center;
     font-size: 2em;
   }
