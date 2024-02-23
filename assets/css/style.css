@@ -95,10 +95,6 @@ p {
   .left-column, .right-column {
     width: 100%;
   }
-  
-  .social-icons-container {
-    margin-top: 20px;
-  }
 
   .left-column {
           padding: 0px;
@@ -120,5 +116,6 @@ p {
 
   .name h1 {
           font-size: 3em;
+          margin-top: 15%;
   }
 }
