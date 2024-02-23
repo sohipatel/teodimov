@@ -84,7 +84,8 @@ p {
 
 .right-column .social-icons-container {
         display: block;
-        position: fixed;
+        width: 200%;
+        margin-top: 15%;
 }
 
 @media screen and (max-width: 768px) {
@@ -100,7 +101,7 @@ p {
   .content {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
   }
   
   .left-column {
