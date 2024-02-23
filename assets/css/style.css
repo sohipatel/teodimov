@@ -119,7 +119,7 @@ p {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .mobile-container {
           display: flex;
           margin: -5% 5% 10% 5%;
