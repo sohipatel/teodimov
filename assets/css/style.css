@@ -32,10 +32,14 @@ body, html {
             margin: 0 20px;
     }
 
-    .container {
+    .desktop-container {
         margin: 5% 10% 10% 10%;
         display: flex;
         justify-content: center;
+    }
+
+    .mobile-container {
+            display: none;
     }
 
     .content {
@@ -78,10 +82,19 @@ p {
         -webkit-text-fill-color: transparent;
 }
 
+.right-column .social-icons-container {
+        display: block;
+        position: fixed;
+}
+
 @media screen and (max-width: 768px) {
-  /* Adjustments for smaller screens, like tablets and mobile devices */
-  .container {
-    margin: -5% 5% 10% 5%;
+  .mobile-container {
+          display: flex;
+          margin: -5% 5% 10% 5%;
+  }
+        
+  .desktop-container {
+          display: none;
   }
   
   .content {
