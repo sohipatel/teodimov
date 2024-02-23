@@ -96,6 +96,30 @@ p {
   .right-column {
     grid-column: auto; /* Reset the grid-column property */
     justify-items: center; /* Center the items */
+    justify-content: center;
+  }
+        
+  .name h1 {
+     font-size: 4em;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1700px) {
+  .content {
+    gap: 10px; /* Adjust the gap between grid items */
+  }
+
+  .name h1 {
+          font-size: 4em;
+  }
+
+  .right-column {
+          justify-content: center;
+  }
+
+  .right-column img {
+    max-width: calc(50% - 5px); /* Ensure the images don't stretch too much */
+    height: auto;
   }
 }
 
