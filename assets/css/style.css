@@ -108,11 +108,11 @@ p {
           gap: 10px;
   }
 
-  .social-icons-container.desktop {
+  .desktop-social-icons-container {
     display: none;
   }
   
-  .social-icons-container.mobile {
+  .mobile-social-icons-container {
     display: block;
     text-align: center;
     font-size: 2em;
@@ -130,7 +130,7 @@ p {
 
 @media screen and (min-width: 769px) {
   /* Show desktop social icons on desktop screens */
-  .social-icons-container.desktop {
+  .desktop-social-icons-container {
     display: block;
     text-align: center;
     font-size: 2em;
