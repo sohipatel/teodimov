@@ -88,6 +88,17 @@ p {
         margin-top: 15%;
 }
 
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .content {
+    grid-template-columns: 1fr; /* Change the grid to a single column */
+  }
+
+  .right-column {
+    grid-column: auto; /* Reset the grid-column property */
+    justify-items: center; /* Center the items */
+  }
+}
+
 @media screen and (max-width: 768px) {
   .mobile-container {
           display: flex;
